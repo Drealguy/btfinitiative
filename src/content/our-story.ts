@@ -9,7 +9,7 @@ import founderPhoto from "@/assets/our-story/abayomi-alvin.png";
 
 export const storyHero = {
   eyebrow: "Our Story",
-  note: "Beyond The Fall",
+  note: "Beyond The Fall Initiative",
   title: { lead: "Because Everyone Deserves", highlight: "a Chance to Rise Again." },
   intro:
     "Every great story has its difficult chapters. Some come with unexpected losses, failed attempts, and moments when starting over feels impossible.",

@@ -123,12 +123,17 @@ export function SiteFooter() {
           </div>
         </div>
 
-        {/* Oversized pixel wordmark — one line from 640px, two lines on phones */}
+        {/* Oversized pixel wordmark — two lines from 640px, three on phones. Each line's
+            width is proportional to its length so all letters share one pixel size. */}
         <div aria-hidden="true" data-reveal="up" className="text-night">
-          <PixelText value="BEYOND THE FALL" accentFrom={11} className="hidden w-full sm:block" />
-          <div className="flex flex-col gap-[2.5vw] sm:hidden">
-            <PixelText value="BEYOND" className="w-[74%]" />
-            <PixelText value="THE FALL" accentFrom={4} className="w-full" />
+          <div className="hidden flex-col gap-[1.1vw] sm:flex">
+            <PixelText value="BEYOND THE FALL" accentFrom={11} className="w-full" />
+            <PixelText value="INITIATIVE" className="w-[66.3%]" />
+          </div>
+          <div className="flex flex-col gap-[2.2vw] sm:hidden">
+            <PixelText value="BEYOND" className="w-[59.3%]" />
+            <PixelText value="THE FALL" accentFrom={4} className="w-[79.7%]" />
+            <PixelText value="INITIATIVE" className="w-full" />
           </div>
         </div>
 
